@@ -32,7 +32,7 @@ export default function App() {
 
   const selectMusic = (e) => {
     const index = Number(e.currentTarget.dataset.id);
-    SetOneMusic(allMusic[index]);
+    SetOneMusic(allMusic[index-1]);
   };
 
 
